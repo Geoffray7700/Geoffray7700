@@ -1,0 +1,145 @@
+@charset "UTF-8";
+abbr,article,aside,audio,canvas,datlist,details,figure,dialog,footer,header,hgroup,mark,menu,meter,mark,nav,output,progress,section,time,video {display:block;}
+ul,ol {
+
+    text-align: center;
+	margin:1px;
+	padding:1px;
+    font-size: 20px;
+    list-style: inside;
+    line-height: 1.5;
+	}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
+/*--------------HEADER------------------*/
+title {
+	font-size: 50px;
+	margin-top:5px;
+}
+
+/*----------------MENU------------------*/
+
+/*---------------ASIDE------------------*/
+
+/*---------------CONTENU----------------*/
+
+table {
+    text-align:center;
+}
+
+div {
+    display: block;
+    text-align:center;
+  }
+
+
+h1 {
+    color:#0D85AC ;
+    text-align : right;
+    text-decoration: underline;
+}
+
+h2 {
+    color:#0D85AC ;
+    text-align : right;
+}
+
+h3 {
+   text-decoration: underline;
+   font-size: 30px;
+}
+
+img{
+    border : 5px solid #5979C2 ;
+}
+
+a:hover{
+    color:grey;
+}
+
+a:link {
+    color:green;
+}
+
+a {
+    text-decoration:none;
+}
+
+form {
+    text-align : center;
+}
+
+marquee {
+    color:rgb(1, 10, 1);
+    background-color:#5979C2;
+}
+
+
+/*----------------FOOTER-----------------*/
+
+footer {
+    text-align: center;
+    bottom:10px;
+    width:100%;
+	font-size:20px;
+}
+
+/*----------------AUTRES-----------------*/
+
+
+.imageinfo {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/imagecode.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    color: #16df8b;
+}
+
+.image {
+    border : 15px solid #5979C2 ;
+   }
+
+   .champs {
+  font-size: 20px;
+   }
+
+   .bodycouleur {
+    background-color:#D5D6DF ;
+   }
+
+   .photo {
+    width:400px;
+    height:200px;
+   }
+
+   .youtube {
+    width:500px;
+    height:300px;
+   }
+
+   .marquee {
+    white-space: nowrap;
+    animation: scroll-right-left 5s linear infinite;
+    color: #5979C2;
+    font-size: 20px;
+}
+
+.tdlien{
+    width:800px;
+}
+
+@keyframes scroll-right-left {
+    from {
+        transform: translateX(400px);
+    }
+    to {
+        transform: translateX(-400px);
+    }
+}
